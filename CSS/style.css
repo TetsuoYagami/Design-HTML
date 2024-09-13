@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    font-family: "Fascinate Inline", system-ui;
+
+
+}
+
+
+
+header {
+    width: 1640px;
+    height: 200px;
+    text-align: center;
+
+}
+
+header img {
+    height: 190px;
+    filter: drop-shadow(10px 10px 10px rgb(41, 36, 36));
+}
+
+nav {
+    width: 1640px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+    background-color: black;
+    border-radius: 8px;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
+}
+
+nav a {
+    color: rgb(232, 231, 231);
+    text-decoration: none;
+    padding: 6px;
+    font-family: "Fascinate Inline", system-ui;
+    font-size: 24px;
+    transition: .8s;
+
+}
+
+nav a:hover {
+    background-color: rgb(104, 20, 20);
+    transform: scale(1.2);
+}
+
+body{
+    background-image: url(/imagenes/background\ bre.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.personaje {
+    width: 1300px;
+    height: 350px;
+    margin-left: 33px;
+    margin-top: 20px;
+}
+
+.foto {
+    width: 400px;
+    height: 350px;
+
+    float: left;
+    margin-left: 33px;
+    text-align: center;
+    
+}
+
+.foto img {
+    height: 100%;
+}
+
+.texto {
+    width: 800px;
+    height: 350px;
+    background-color: rgba(9, 10, 8, 0.817);
+    color: whitesmoke;
+
+    float: left;
+    margin-left: 33px;
+    padding: 20px;
+    
+}
+
+.texto a {
+    color: rgb(255, 255, 255);
+}
+
+footer {
+    width: 1366px;
+    height: 250px;
+
+}
+.mapa{
+    width: 1460px; height: 450px;
+    text-align: left;
+    margin-top: 50px;
+}
+.imagen{
+    width: 1640px;
+    height: 300px;
+    text-align: left;
+}
+
